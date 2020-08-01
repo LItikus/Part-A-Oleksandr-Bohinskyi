@@ -1,0 +1,84 @@
+
+body {
+    max-width: 75%;
+    margin: auto;
+    background-color: #0c0c0c;
+    color: white;
+}
+
+/* Options */
+.options ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.options li {
+    text-decoration: none;
+    list-style: none;
+}
+.options li a {
+    outline: solid;
+    outline-style: solid;
+    padding: 10px 75px;
+    outline-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+img {
+    max-width: 100%;
+}
+.img-col {
+    flex-basis: 50%;
+}
+.text-col {
+    max-width: 50%;
+}
+.text-col p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.text-col h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.text-col h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.text-col .price {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+.text-col .btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.btn {
+    outline: solid;
+    outline-color: white;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    list-style: none;
+}
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    background: rgba(39, 39, 39, 0);
+}
+
+.checked {
+    color: white;
+}
+
